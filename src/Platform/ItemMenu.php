@@ -247,14 +247,14 @@ class ItemMenu
 
     /**
      * @param Closure $badge
-     * @param Color  $color
+     * @param Color   $color
      *
      * @return ItemMenu
      */
     public function badge(Closure $badge, Color $color = null): self
     {
         $this->badge = [
-            'class' => 'bg-' . $color ?? Color::PRIMARY(),
+            'class' => 'bg-'.$color ?? Color::PRIMARY(),
             'data'  => $badge,
         ];
 

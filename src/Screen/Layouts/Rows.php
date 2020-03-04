@@ -55,7 +55,6 @@ abstract class Rows extends Base
         ]);
     }
 
-
     /**
      * @return array
      */
